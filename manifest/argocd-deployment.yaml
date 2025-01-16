@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: argocd-app-container
-        image: jeongsujin/app-with-argocd:d807887aca39e4965f64f33573d6d78ddfb39c45
+        image: jeongsujin/app-with-argocd:c28bf6a88976f886ba214cc16f949239cf29701c
        #imagePullPolicy: Always
         ports:
           - protocol: TCP
